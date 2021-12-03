@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Card from "./Card";
 import CoffeeCards from "./CoffeeCards";
-import { Container } from "../../ui/shared";
-// import { ReactComponent as UpArrow } from "../../../assets/icons/up-arrow.svg";
-// <UpArrow />
 
 const CoffeeType = ({ option }) => {
   const [isOpen, setIsOpen] = useState(false);

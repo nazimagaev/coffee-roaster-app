@@ -25,7 +25,6 @@ export const navigationItems = [
 
     path: "/plan",
 
-    path: "/subscribe",
   },
 ];
 

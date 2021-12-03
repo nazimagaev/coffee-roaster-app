@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import granImg from "../../../assets/home/desktop/image-gran-espresso.png";
 import { collectionData } from "../../../constants/constants";
 
 const CollectionSectionStyled = styled.div`
@@ -63,16 +62,3 @@ function CollectionSection() {
 }
 
 export default CollectionSection;
-
-{
-  /* <CollectionTypeContainer>
-        <CoffeeType>
-          <img src={granImg} alt="" />
-          <h2>Gran Espresso</h2>
-          <p>
-            Light and flavorful blend with cocoa and black pepper for an intense
-            experience.
-          </p>
-        </CoffeeType>
-      </CollectionTypeContainer> */
-}
